@@ -1,0 +1,36 @@
+;Codewright Project Space File (do not remove or modify this line)
+[State]
+StateWindowFrame=0,0,1671,1002,0x43097fca
+_StateHistory=PROJECTS,'..\Orion-Thomas\Thomas_CL_V3.pjt','.\Orion_MC_V4.pjt'
+_RestoreProject='.\Orion_MC_V4.pjt'
+ProjSpaceFlags=0x00000000, 1
+
+[Project]
+ConfigSetUserWorkspace=''
+ConfigSetUserWorkspaceParser=''
+ConfigSetUserWorkspaceTimeStamp=0
+ConfigSetUserWorkspaceAutoSync=0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Project.".\Orion_MC_V4.pjt"]
+
+[Project."..\Orion-Thomas\Thomas_CL_V3.pjt"]
+

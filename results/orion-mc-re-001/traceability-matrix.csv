@@ -1,0 +1,10 @@
+BR_ID,SR_ID,AR_ID,MD_ID,UT_ID,IT_ID,ST_ID,AT_ID,Status,Notes
+BR-020,SR-010,AR-040,MD-020,UT-050,,ST-010,AT-010,Implemented,"Up to MAX_SENSOREN=16 sensors"
+BR-010,SR-020,AR-020,MD-010,,IT-030,ST-020,AT-030,Inferred,"Intended 100 ms period; see OI-010"
+BR-020,SR-030,AR-040,MD-020,UT-050,,ST-010,AT-010,Implemented,"Consecutive addressing from FirstAddress"
+BR-020,SR-040,AR-030,MD-030,UT-010,IT-040,ST-010,AT-010,Implemented,"Modbus address range 1..247"
+BR-010,SR-050,AR-030,MD-050,UT-070,IT-010,ST-010,AT-010,Implemented,"Automatic connect when not connected"
+BR-040,SR-060,AR-040,MD-060,UT-080,,ST-030,AT-010,Implemented,"Value published to val_hr_alg"
+BR-030,SR-070,AR-050,MD-040,,IT-020,,AT-020,Inferred,"Alarm trigger condition not yet traced"
+BR-050,SR-080,AR-060,,UT-060,,,AT-030,Inferred,"Hardening requirement; see OI-040"
+BR-050,SR-090,AR-030,,UT-010,,ST-040,AT-030,Inferred,"Portability of polling logic"

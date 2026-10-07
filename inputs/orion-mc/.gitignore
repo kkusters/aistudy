@@ -1,0 +1,16 @@
+__connection_failed_report__Controller0_C166SV2.txt
+_orion_mc_v4.cfg
+_orion_mc_v4.ilo
+_orion_mc_v4.xvo
+*.cmd
+*.bak
+Orion_MC_V4
+orion_mc_v4.bld
+orion_mc_v4.err
+orion_mc_v4.mak
+orion_mc_v4.opm
+Orion_MC_V4.ptg
+Orion_MC_V4.tag
+start.asm
+Orion_MC_V4.CS_/
+output/

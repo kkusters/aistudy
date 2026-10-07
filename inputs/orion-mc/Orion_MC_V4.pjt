@@ -1,0 +1,886 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110950
+
+[State]
+SysSetCwd='C:\Workspace\Orion-MC\sources'
+SrchSetFlags=0x041a30aa
+SrchSetAgainFlags=0x00022022,0
+SrchSetAgainFlags=0x0202202a,1
+FileSortMode=0x0
+_StateHistory=FILELIST,'C:\Workspace\Orion-MC\sources\uip-1.0\uip\ch_cp2200.h','C:\Workspace\Orion-MC\sources\ch_rosenberg_gen_3.h','C:\Workspace\Orion-MC\sources\ch_climafan.h','C:\Workspace\Orion-MC\sources\ch_belimo_lm24a_mod.h','C:\Workspace\Orion-MC\sources\ch_disp_inblaasvent_1.h','C:\Workspace\Orion-MC\sources\ch_ecblue_modbus.h','C:\Workspace\Orion-MC\sources\ch_ecblue_premium.h','C:\Workspace\Orion-MC\sources\ch_rosenberg.h','C:\Workspace\Orion-MC\sources\c__nicotra_gebhardt.c'
+_StateHistory=SEARCH,'modbus','dtRosenberg','ClimafanAlarmActive','_CH_CLIMAFAN_H','gen3','gen_3','TYPE_STURING_MB_NICOTRA_GEBHARDT','TYPE_STURING_MB_ROSENBERG_GEN3','NicotraGebhardtReceiveVersionNumber','NicotraGebhardtReceiveMinMaxRpm'
+_StateHistory=REPLACE,'opt_alg.aantal_afdelingen','afd','coo2_wtw_enabled','co2_wtw_OK','Warmte_Wisselaar_10','Max_Bij_Wisselaar_10','Max_CO2_Wisselaar_10','kanaal_al_timer','XML->Klep','256'
+_StateHistory=EDITFILE,'C:\Workspace\Orion-Thomas\Thomas_CL_V3','AlarmCode','GetPercentage','C:\Workspace\Orion_MC_4_JP\c__disp_opt_alg_2.c','C:\Workspace\Orion_MC_4_JP\c__main.c','C:\Workspace\Orion_MC_4_JP\c__string.c','C:\Workspace\Orion_MC_4_JP\ch_string.h','C:\Workspace\Orion_MC_4_JP\ct_computer.h','C:\Workspace\Orion-MC\sources\c__nicotra_gebhardt','C:\Workspace\Orion-MC\sources\ch_nicotra_gebhardt'
+_StateHistory=DIRECTORY,'G:\Backup\Orion-V\2006-03-31','C:\C166_projecten\sirius_v\sources','I:\Produkten\Iris\Iris-V\Software\PIC18F4585\Versie1.15\Iris\Source','I:\Produkten\Orion\Orion-V\Software\Type controller\Versie 1.06\sources','G:\Backup\Orion-V\2006-01-25\sources','G:\Backup\Orion-V\2006-03-31\sources','C:\C166_projecten\Orion_kaal\source','G:\Backup\Orion-V\2006-05-23\sources','C:\C166_Projecten\Orion_Egg_V3\source','C:\C166_Projecten\Orion_FWS_V3\sources'
+_StateHistory=TEMPLATE,'TTM_Init','OptCheckTTM','OptCheckAfdeling'
+_StateHistory=FGREP,'MAX_MOTORGROUP','MAX','HiSpeed','DS401_GetDigitalOutput','DS401_Get','DS401_Set','EMULATOR','VersieProg','version','439'
+_StateHistory=GREPSCOPE,'*.*','*.c;*.h'
+_StateHistory=DIFFFILE,'C:\C166_Projecten\Orion_MC_V4\sources\c__eep.c','C:\C166_Projecten\Orion_MC_V4\sources\c__timer.c','C:\C166_Projecten\Orion_MC_V4\sources\ch_timer.h','C:\C166_Projecten\Orion_MC_V4\sources\ct_data.h','C:\C166_Projecten\Orion_MC_V4\sources\ch_eep.h','C:\Workspace\Orion-MC\sources\c__disp_opt_alg_2.c','C:\Workspace\Orion-MC\sources\c__main.c','C:\Workspace\Orion-MC\sources\c__string.c','C:\Workspace\Orion-MC\sources\ch_string.h','C:\Workspace\Orion-MC\sources\ct_computer.h'
+_StateHistory=PRNHEADER,'%b%e;;%d %t','%b%e;;%d %f','%b%e;%d%f'
+_StateHistory=PRNFOOTER,';%p',';%f'
+_StateHistory=DIFFTARGET,'C:\C166_Projecten\Orion_GC_V3\sources\c__eep.c','C:\C166_Projecten\Orion_GC_V3\sources\c__timer.c','C:\C166_Projecten\Orion_GC_V3\sources\ch_timer.h','C:\C166_Projecten\Orion_GC_V3\sources\ct_data.h','C:\C166_Projecten\Orion_GC_V3\sources\ch_eep.h','C:\Workspace\Orion_MC_4_JP\c__disp_opt_alg_2.c','C:\Workspace\Orion_MC_4_JP\c__main.c','C:\Workspace\Orion_MC_4_JP\c__string.c','C:\Workspace\Orion_MC_4_JP\ch_string.h','C:\Workspace\Orion_MC_4_JP\ct_computer.h'
+_StateHistory=FGREPDIR,'C:\c16','C:\Program Files (x86)\TASKING\c166 v8.8r1\bin','C:\Workspace\Orion-GC','C:\Workspace\Orion_MC_4_JP'
+_StateHistory=DOCUMENTVISIT,'49          1           C:\Workspace\Orion-MC\sources\ch_ecblue_premium.h','42          18          C:\Workspace\Orion-MC\sources\ch_nicotra_gebhardt.h','29          1           C:\Workspace\Orion-MC\sources\ch_ecblue_modbus.h','42          18          C:\Workspace\Orion-MC\sources\ch_nicotra_gebhardt.h','41          28          C:\Workspace\Orion-MC\sources\ch_rosenberg_gen_3.h','67          41          C:\Workspace\Orion-MC\sources\ch_nicotra_gebhardt.h','180         54          C:\Workspace\Orion-MC\sources\c__nicotra_gebhardt.c','11          18          C:\Workspace\Orion-MC\sources\ch_nicotra_gebhardt.h','124         23          C:\Workspace\Orion-MC\sources\c__nicotra_gebhardt.c','11          18          C:\Workspace\Orion-MC\sources\ch_nicotra_gebhardt.h'
+_StateHistory=XOBJECTS,'sOptMotorgroep','TMotorgroup','RosenbergReceiveInsideTemperature','RosenbergReceiveInsideTemperature*','dtRosenberg','Init'
+_StateDocumentVisit=10
+
+[Editor]
+ConfigSetBtnIniFilename='C:\Users\koenk\AppData\Local\TASKING\c166 v8.8r1\cwright.btn'
+ConfigSetMacroFilename='C:\Users\koenk\AppData\Local\TASKING\c166 v8.8r1\cwright.mac'
+ConfigSetMarkDBFilename='C:\Users\koenk\AppData\Local\TASKING\c166 v8.8r1\cwright.mrk'
+BufSetGlobalBackupSpec='%b.bak'
+KeyRepeat=5
+KeyDelay=450
+ExtCommentSearchLimit=200
+ExtDelayedColoring=1
+ExtSetUpdateDelay=0
+BookmarkAttr=0x0c33
+NameMarkFlags=0x0022
+NameMarkThreshold=5
+_RestoreSysFlags=0x43097fca, 0xfffffffc, 0
+_RestoreSysFlags=0x40010005, 0xffffffff, 1
+CollapseMode=0x13080610
+FilterProjDeleteList 
+FilterProjAdd='Source Files','*.c;*.cc;*.cpp;*.cxx;*.ic;*.c96;*.fle;*.cmp;*.asm;*.src;*.s;*.a96;*.i;*.pcp;*.68k',-1
+FilterProjAdd='Header Files','*.h;*.h68;*.inc;*.sfr',-1
+FilterProjAdd='Project Files','*.pjt',-1
+FilterProjAdd='Resources','*.rc;*.bmp;*.ico;*.cur;*.dlg',-1
+FilterProjAdd='Other Files','*.*',-1
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe'
+
+[Compiler]
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+BrowseSetFile='C:\Workspace\Orion-MC\Orion_MC_V4.ptg'
+TagSetFile='C:\Workspace\Orion-MC\Orion_MC_V4.tag'
+CompilerAddCmdEx='TASKING src','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING src',
+CompilerAddCmdEx='TASKING ccm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING ccm',
+CompilerAddCmdEx='TASKING fle','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING fle',
+CompilerAddCmdEx='TASKING cc','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING cc',
+CompilerAddCmdEx='TASKING icm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING icm',
+CompilerAddCmdEx='TASKING cxx','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING cxx',
+CompilerAddCmdEx='TASKING asm','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING asm',
+CompilerAddCmdEx='TASKING cmp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING cmp',
+CompilerAddCmdEx='$_cw_proj_hash_$','',1073741920,'',1073741920,'!EdeExecBuild()',1073741984,'',0,'!EdeExecRebuild()',1073741984,'',0,'!EdeExecDebug()',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err','%v%p'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmdEx='TASKING ic','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING ic',
+CompilerAddCmdEx='TASKING cpp','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING cpp',
+CompilerAddCmdEx='TASKING c','!EdeExecCompile()',1073741920,'!EdeExecCompile()',1073741920,'',1073741984,'',0,'',1073741984,'',0,'',1073741856,'',0,'_TaskingErrorInfo','','','c:\workspace\orion-mc\orion_mc_v4.err',''
+CompilerAddResponse='TASKING c',
+CompilerNewExt=.htm
+CompilerAssign='TASKING src','.src'
+CompilerNewExt=.v
+CompilerNewExt=.awk
+CompilerNewExt=.bas
+CompilerAssign='TASKING c','.c'
+CompilerNewExt=.adb
+CompilerNewExt=.cfml
+CompilerNewExt=.jsp
+CompilerNewExt=.pl
+CompilerNewExt=.vhd
+CompilerNewExt=.h
+CompilerNewExt=.pas
+CompilerNewExt=.tk
+CompilerNewExt=.asp
+CompilerNewExt=.rul
+CompilerNewExt=.cob
+CompilerNewExt=.js
+CompilerAssign='TASKING cmp','.cmp'
+CompilerNewExt=.php
+CompilerNewExt=.rc
+CompilerNewExt=.tcl
+CompilerAssign='TASKING fle','.fle'
+CompilerNewExt=.ini
+CompilerAssign='TASKING cc','.cc'
+CompilerAssign='TASKING ic','.ic'
+CompilerAssign='TASKING icm','.icm'
+CompilerNewExt=.cs
+CompilerNewExt=.bat
+CompilerNewExt=.html
+CompilerAssign='TASKING ccm','.ccm'
+CompilerAssign='TASKING cpp','.cpp'
+CompilerAssign='TASKING cxx','.cxx'
+CompilerAssign='TASKING asm','.asm'
+CompilerNewExt=.txt
+CompilerNewExt=.nrx
+CompilerNewExt=.java
+CompilerNewExt=.sqlj
+CompilerNewExt=.xml
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+
+[Project]
+ConfigSetLinkDBFilename='C:\Users\koenk\AppData\Local\TASKING\c166 v8.8r1\cwright.ldb'
+ConfigSetMarkDBFilename='C:\Users\koenk\AppData\Local\TASKING\c166 v8.8r1\cwright.mrk'
+ConfigSetSymbolDBFilename='C:\Workspace\Orion-MC\Orion_MC_V4'
+EditSetPath=''
+
+[Files]
+.\start.asm
+.\sources\ch_main.h
+.\sources\c__main.c
+.\sources\system\ch_wdi.h
+.\sources\system\c__wdi.c
+.\sources\system\ch_i2c.h
+.\sources\system\c__i2c.c
+.\sources\system\ch_rtc.h
+.\sources\system\c__rtc.c
+.\sources\app\ch_alg.h
+.\sources\app\c__alg.c
+.\sources\app\ch_tijd.h
+.\sources\app\c__tijd.c
+.\sources\system\ch_int.h
+.\sources\system\ch_timer.h
+.\sources\system\c__timer.c
+.\sources\system\storage\ch_eep.h
+.\sources\system\storage\c__eep.c
+.\sources\common\ct_data.h
+.\sources\common\c__data.c
+.\sources\common\ch_data.h
+.\sources\comm\serial\ct_computer.h
+.\sources\common\ct_string.h
+.\sources\common\ch_const.h
+.\sources\common\c__const.c
+.\sources\ui\display\ct_disp.h
+.\sources\comm\serial\c__pc_com.c
+.\sources\comm\serial\ch_pc_com.h
+.\sources\system\storage\ch_eep_taal.h
+.\sources\system\storage\c__eep_taal.c
+.\sources\common\c__string.c
+.\sources\common\ch_string.h
+.\sources\comm\serial\ch_asc0.h
+.\sources\comm\serial\c__asc0.c
+.\sources\system\ch_htrap.h
+.\sources\system\c__htrap.c
+.\sources\system\ct_htrap.h
+.\sources\comm\serial\ch_asc1.h
+.\sources\comm\serial\c__asc1.c
+.\sources\ui\input\ch_key.h
+.\sources\ui\input\c__key.c
+.\sources\ui\lcd\ch_lcd_20.h
+.\sources\ui\lcd\c__lcd_7.c
+.\sources\ui\lcd\c__lcd_10.c
+.\sources\ui\lcd\c__lcd_14.c
+.\sources\ui\lcd\c__lcd_20.c
+.\sources\ui\lcd\ch_lcd_7.h
+.\sources\ui\lcd\ch_lcd_10.h
+.\sources\ui\lcd\ch_lcd_14.h
+.\sources\ui\lcd\ch_lcd_hardware.h
+.\sources\ui\lcd\c__lcd_hardware.c
+.\sources\ui\lcd\ch_lcd_pixel.h
+.\sources\ui\lcd\c__lcd_pixel.c
+.\sources\ui\lcd\ch_lcd_bitmap.h
+.\sources\ui\lcd\c__lcd_bitmap.c
+.\sources\app\ch_alarm.h
+.\sources\app\c__alarm.c
+.\sources\ui\display\ch_disp_password.h
+.\sources\ui\display\c__disp_password.c
+.\sources\ui\display\ch_disp.h
+.\sources\ui\display\c__disp.c
+.\sources\ui\display\ch_disp_start.h
+.\sources\ui\display\c__disp_start.c
+.\sources\ui\screens\ch_disp_option_0.h
+.\sources\ui\screens\c__disp_option_0.c
+.\sources\ui\display\c__disp_func.c
+.\sources\ui\display\ch_disp_func.h
+.\sources\ui\display\ch_disp_value.h
+.\sources\ui\display\c__disp_value.c
+.\sources\ui\screens\ch_disp_option_1.h
+.\sources\ui\screens\c__disp_option_1.c
+.\sources\io\ch_IO.h
+.\sources\io\c__IO.c
+.\sources\ui\screens\ch_disp_alarm_0.h
+.\sources\ui\screens\c__disp_alarm_0.c
+.\sources\ui\screens\ch_disp_alarmen_historie_1.h
+.\sources\ui\screens\c__disp_alarmen_0.c
+.\sources\ui\screens\c__disp_alarmen_actief_1.c
+.\sources\ui\screens\c__disp_alarmen_historie_1.c
+.\sources\ui\screens\ch_disp_alarmen_0.h
+.\sources\ui\screens\ch_disp_alarmen_actief_1.h
+.\sources\ui\screens\ch_disp_diagnose_0.h
+.\sources\ui\screens\c__disp_diagnose_0.c
+.\sources\comm\serial\ch_computer.h
+.\sources\comm\serial\c__computer.c
+.\sources\comm\can\ch_can_IO.h
+.\sources\comm\can\c__can_IO.c
+.\sources\ui\screens\ch_disp_diag_can_io_1.h
+.\sources\ui\screens\c__disp_diag_can_io_1.c
+.\sources\ui\screens\ch_disp_diag_info_1.h
+.\sources\ui\screens\c__disp_diag_info_1.c
+.\sources\comm\can\ch_can.h
+.\sources\comm\can\ch_can_backbone_pc.h
+.\sources\comm\can\c__can_backbone_pc.c
+.\sources\comm\can\ch_can_backbone_hardware.h
+.\sources\comm\can\c__can_backbone.c
+.\sources\comm\can\c__can_backbone_appl.c
+.\sources\comm\can\c__can_backbone_hardware.C
+.\sources\comm\can\ch_can_backbone.h
+.\sources\comm\can\ch_can_backbone_appl.h
+.\sources\comm\serial\ct_pc_com.h
+.\sources\ui\screens\ch_disp_F1_0.h
+.\sources\ui\screens\c__disp_F1_0.c
+.\sources\ui\screens\ch_disp_F3_0.h
+.\sources\ui\screens\c__disp_F2_0.c
+.\sources\ui\screens\c__disp_F3_0.c
+.\sources\ui\screens\ch_disp_F2_0.h
+.\sources\io\ch_IO_H2MC_board.h
+.\sources\io\c__IO_08_09.c
+.\sources\io\c__IO_08_09_board.c
+.\sources\io\c__IO_08_09_dac.c
+.\sources\io\c__IO_08_09_digin.c
+.\sources\io\c__IO_08_09_dout.c
+.\sources\io\c__IO_H2MC.c
+.\sources\io\c__IO_H2MC_board.c
+.\sources\io\ch_IO_08_09.h
+.\sources\io\ch_IO_08_09_board.h
+.\sources\io\ch_IO_08_09_dac.h
+.\sources\io\ch_IO_08_09_digin.h
+.\sources\io\ch_IO_08_09_dout.h
+.\sources\io\ch_IO_H2MC.h
+.\sources\ui\screens\ch_disp_opt_alg_2.h
+.\sources\ui\screens\c__disp_opt_alg_2.c
+.\sources\ui\screens\ch_disp_opt_IO_2.h
+.\sources\ui\screens\c__disp_opt_IO_2.c
+.\sources\ui\screens\ch_disp_opt_IO_Select.h
+.\sources\ui\screens\c__disp_opt_IO_08_09_3.c
+.\sources\ui\screens\c__disp_opt_IO_H2MC_3.c
+.\sources\ui\screens\c__disp_opt_IO_Select.c
+.\sources\ui\screens\ch_disp_opt_IO_08_09_3.h
+.\sources\ui\screens\ch_disp_opt_IO_H2MC_3.h
+.\sources\ui\screens\ch_disp_opt_motorgroepen_2.h
+.\sources\ui\screens\c__disp_opt_motorgroepen_2.c
+.\sources\ui\screens\ch_disp_opt_groep_2.h
+.\sources\ui\screens\c__disp_opt_groep_2.c
+.\sources\app\ch_motor.h
+.\sources\app\c__motor.c
+.\sources\app\ch_motorgroep.h
+.\sources\app\c__motorgroep.c
+.\sources\ui\screens\ch_disp_tijd_1.h
+.\sources\ui\screens\c__disp_group_1.c
+.\sources\ui\screens\c__disp_tijd_1.c
+.\sources\ui\screens\ch_disp_group_1.h
+.\sources\ui\screens\ch_disp_motor_1.h
+.\sources\ui\screens\c__disp_motor_1.c
+.\sources\ui\screens\ch_disp_tijd_2.h
+.\sources\ui\screens\c__disp_group_2.c
+.\sources\ui\screens\c__disp_tijd_2.c
+.\sources\ui\screens\ch_disp_group_2.h
+.\sources\ui\screens\ch_disp_diag_motor_1.h
+.\sources\ui\screens\c__disp_diag_can_backbone_1.c
+.\sources\ui\screens\c__disp_diag_groep_1.c
+.\sources\ui\screens\c__disp_diag_motor_1.c
+.\sources\ui\screens\ch_disp_diag_can_backbone_1.h
+.\sources\ui\screens\ch_disp_diag_groep_1.h
+.\sources\io\ch_IO_H2MC_mc.h
+.\sources\io\c__IO_H2MC_mc.c
+.\sources\ui\screens\ch_disp_opt_kiersturing_2.h
+.\sources\ui\screens\c__disp_opt_kiersturing_2.c
+.\sources\app\ch_kiersturing.h
+.\sources\app\c__kiersturing.c
+.\sources\ui\screens\ch_disp_kiersturing_1.h
+.\sources\ui\screens\c__disp_kiersturing_1.c
+.\sources\ui\screens\ch_disp_diag_sd_card_1.h
+.\sources\ui\screens\c__disp_diag_sd_card_1.c
+.\sources\system\ch_test.h
+.\sources\system\c__test.c
+.\sources\comm\canopen\usr_301.c
+.\sources\comm\canopen\c__DS401.c
+.\sources\common\cal_conf.h
+.\sources\system\cdriver.c
+.\sources\system\cdriver.h
+.\sources\comm\canopen\ch_DS401.h
+.\sources\comm\canopen\co_tasking.h
+.\sources\system\init.c
+.\sources\system\malloc.c
+.\sources\comm\canopen\nmtslave.c
+.\sources\comm\canopen\objects.h
+.\sources\comm\can\twincan.c
+.\sources\comm\can\twincan.h
+.\sources\canopen\source\utility.h
+.\sources\canopen\source\access.h
+.\sources\canopen\source\access_o.c
+.\sources\canopen\source\cmscodec.c
+.\sources\canopen\source\cmscodec.h
+.\sources\canopen\source\cmsevent.c
+.\sources\canopen\source\cmsevent.h
+.\sources\canopen\source\cmsmain.c
+.\sources\canopen\source\cmsmain.h
+.\sources\canopen\source\drv.h
+.\sources\canopen\source\emerg.c
+.\sources\canopen\source\emerg.h
+.\sources\canopen\source\heartbt.c
+.\sources\canopen\source\heartbt.h
+.\sources\canopen\source\lme.c
+.\sources\canopen\source\nmt.c
+.\sources\canopen\source\nmt.h
+.\sources\canopen\source\nmt_m.c
+.\sources\canopen\source\nmt_m.h
+.\sources\canopen\source\nmt_s.c
+.\sources\canopen\source\nmt_s.h
+.\sources\canopen\source\nmterr.c
+.\sources\canopen\source\nmterr.h
+.\sources\canopen\source\nmterr_m.c
+.\sources\canopen\source\nmterr_m.h
+.\sources\canopen\source\pdo.c
+.\sources\canopen\source\pdo.h
+.\sources\canopen\source\sdo.c
+.\sources\canopen\source\sdo.h
+.\sources\canopen\source\sdomain.c
+.\sources\canopen\source\sdomain.h
+.\sources\canopen\source\sdoserv.c
+.\sources\canopen\source\set_com.c
+.\sources\canopen\source\sync.c
+.\sources\canopen\source\sync.h
+.\sources\canopen\source\timer.c
+.\sources\canopen\source\timer.h
+.\sources\canopen\source\utility.c
+.\sources\canopen\include\co_usr.h
+.\sources\canopen\include\co_acces.h
+.\sources\canopen\include\co_cobid.h
+.\sources\canopen\include\co_drv.h
+.\sources\canopen\include\co_drvif.h
+.\sources\canopen\include\co_emcy.h
+.\sources\canopen\include\co_flag.h
+.\sources\canopen\include\co_lme.h
+.\sources\canopen\include\co_nmt.h
+.\sources\canopen\include\co_nmt_m.h
+.\sources\canopen\include\co_odidx.h
+.\sources\canopen\include\co_pdo.h
+.\sources\canopen\include\co_sdo.h
+.\sources\canopen\include\co_setcp.h
+.\sources\canopen\include\co_stru.h
+.\sources\canopen\include\co_sync.h
+.\sources\canopen\include\co_timer.h
+.\sources\canopen\include\co_type.h
+.\sources\canopen\include\co_def.h
+.\sources\canopen\include\co_hb.h
+.\sources\canopen\include\co_mcpy.h
+.\sources\ui\screens\ch_disp_opt_IO_EKU_3.h
+.\sources\ui\screens\c__disp_opt_IO_EKU_3.c
+.\sources\io\ch_IO_EKU_mc.h
+.\sources\io\ch_IO_EKU_board.h
+.\sources\io\ch_IO_EKU.h
+.\sources\io\c__IO_EKU_mc.c
+.\sources\io\c__IO_EKU_board.c
+.\sources\io\c__IO_EKU.c
+.\sources\ui\screens\ch_disp_opt_IO_H1MC_3.h
+.\sources\io\ch_IO_H1MC_mc.h
+.\sources\io\ch_IO_H1MC_board.h
+.\sources\io\ch_IO_H1MC.h
+.\sources\io\c__IO_H1MC_mc.c
+.\sources\io\c__IO_H1MC_board.c
+.\sources\io\c__IO_H1MC.c
+.\sources\ui\screens\c__disp_opt_IO_H1MC_3.c
+.\sources\canopen\include\co_debug.h
+.\sources\canopen\include\co_util.h
+.\sources\canopen\include\co_splus.h
+.\sources\comm\canopen\ch_DS301.h
+.\sources\comm\canopen\c__DS301.c
+.\sources\app\ch_event.h
+.\sources\app\c__event.c
+.\sources\canopen\include\co_stor.h
+.\sources\system\storage\c__sd.c
+.\sources\system\storage\ch_sd.h
+.\sources\comm\ethernet\ch_ethernet.h
+.\sources\comm\ethernet\c__ethernet.c
+.\sources\uip-1.0\apps\ethernet_app\ch_ethernet_app.h
+.\sources\uip-1.0\apps\ethernet_app\c__ethernet_app.c
+.\sources\uip-1.0\apps\webserver\httpd-fs.h
+.\sources\uip-1.0\apps\webserver\httpd.h
+.\sources\uip-1.0\uip\psock.h
+.\sources\uip-1.0\uip\uip.c
+.\sources\uip-1.0\uip\uip.h
+.\sources\uip-1.0\uip\uip_arch.h
+.\sources\uip-1.0\uip\uip_arp.c
+.\sources\uip-1.0\uip\c__cp2200.c
+.\sources\uip-1.0\uip\ch_cp2200.h
+.\sources\uip-1.0\uip\NetworkDevice.c
+.\sources\uip-1.0\uip\NetworkDevice.h
+.\sources\uip-1.0\uip\psock.c
+.\sources\common\ch_define.h
+.\sources\uip-1.0\uip\uipopt.h
+.\sources\uip-1.0\uip\uip-conf.h
+.\sources\uip-1.0\uip\clock-arch.h
+.\sources\uip-1.0\uip\clock.h
+.\sources\uip-1.0\uip\uip_arp.h
+.\sources\uip-1.0\uip\uip_timer.h
+.\sources\uip-1.0\uip\uip_timer.c
+.\sources\uip-1.0\uip\pt.h
+.\sources\uip-1.0\uip\lc.h
+.\sources\uip-1.0\uip\lc-switch.h
+.\sources\comm\serial\ch_rs232_0.h
+.\sources\comm\serial\c__rs232_0.c
+.\sources\comm\serial\ch_rs232_1.h
+.\sources\comm\serial\c__rs232_1.c
+.\sources\ui\screens\ch_disp_diag_ethernet_1.h
+.\sources\ui\screens\c__disp_diag_asc0_1.c
+.\sources\ui\screens\c__disp_diag_asc1_1.c
+.\sources\ui\screens\c__disp_diag_ethernet_1.c
+.\sources\ui\screens\ch_disp_diag_asc0_1.h
+.\sources\ui\screens\ch_disp_diag_asc1_1.h
+.\sources\ui\screens\ch_disp_opt_IO_05_07_3.h
+.\sources\ui\screens\c__disp_opt_IO_05_07_3.c
+.\sources\io\ch_IO_05_07.h
+.\sources\io\c__IO_05_07.c
+.\sources\io\ch_IO_05_07_board.h
+.\sources\io\c__IO_05_07_board.c
+.\sources\io\ch_IO_05_07_dac.h
+.\sources\io\c__IO_05_07_dac.c
+.\sources\io\ch_IO_05_07_dout.h
+.\sources\io\ch_IO_05_07_adc.h
+.\sources\io\c__IO_05_07_adc.c
+.\sources\io\c__IO_05_07_dout.c
+.\sources\io\c__IO_05_07_RS485.c
+.\sources\io\ch_IO_05_07_RS485.h
+.\sources\devices\ch_ebmBUS.h
+.\sources\devices\c__ebmBUS.c
+.\sources\ui\screens\c__disp_vent_1.c
+.\sources\ui\screens\ch_disp_vent_1.h
+.\sources\ui\screens\ch_disp_diag_vent_1.h
+.\sources\ui\screens\c__disp_diag_vent_1.c
+.\sources\ui\screens\ch_disp_opt_cabriokas_2.h
+.\sources\ui\screens\c__disp_opt_cabriokas_2.c
+.\sources\devices\ch_cabriokas.h
+.\sources\devices\c__cabriokas.c
+.\sources\ui\screens\ch_disp_opt_luchtmengkast_2.h
+.\sources\ui\screens\c__disp_opt_luchtmengkast_2.c
+.\sources\app\ch_luchtmengkast.h
+.\sources\app\c__luchtmengkast.c
+.\sources\ui\screens\c__disp_diag_luchtmengkast_1.c
+.\sources\ui\screens\ch_disp_diag_luchtmengkast_1.h
+.\sources\ui\screens\ch_disp_luchtmengkast_1.h
+.\sources\ui\screens\c__disp_luchtmengkast_1.c
+.\sources\ui\screens\ch_disp_luchtmengkast_2.h
+.\sources\ui\screens\c__disp_luchtmengkast_2.c
+.\sources\ui\screens\ch_disp_diag_ebm_1.h
+.\sources\ui\screens\c__disp_diag_ebm_1.c
+.\sources\ui\screens\ch_disp_opt_luchting_2.h
+.\sources\ui\screens\c__disp_opt_luchting_2.c
+.\sources\bacnet stack\include\abort.h
+.\sources\bacnet stack\include\address.h
+.\sources\bacnet stack\include\apdu.h
+.\sources\bacnet stack\include\av.h
+.\sources\bacnet stack\include\bacaddr.h
+.\sources\bacnet stack\include\bacapp.h
+.\sources\bacnet stack\include\bacdcode.h
+.\sources\bacnet stack\include\bacdef.h
+.\sources\bacnet stack\include\bacenum.h
+.\sources\bacnet stack\include\bacerror.h
+.\sources\bacnet stack\include\bacint.h
+.\sources\bacnet stack\include\bacnet.h
+.\sources\bacnet stack\include\bacreal.h
+.\sources\bacnet stack\include\bacstr.h
+.\sources\bacnet stack\include\bigend.h
+.\sources\bacnet stack\include\bip.h
+.\sources\bacnet stack\include\bits.h
+.\sources\bacnet stack\include\bv.h
+.\sources\bacnet stack\include\bytes.h
+.\sources\bacnet stack\include\client.h
+.\sources\bacnet stack\include\config.h
+.\sources\bacnet stack\include\config-services.h
+.\sources\bacnet stack\include\cov.h
+.\sources\bacnet stack\include\crc.h
+.\sources\bacnet stack\include\datalink.h
+.\sources\bacnet stack\include\datetime.h
+.\sources\bacnet stack\include\dcc.h
+.\sources\bacnet stack\include\debug.h
+.\sources\bacnet stack\include\device.h
+.\sources\bacnet stack\include\dlenv.h
+.\sources\bacnet stack\include\fifo.h
+.\sources\bacnet stack\include\handlers.h
+.\sources\bacnet stack\include\iam.h
+.\sources\bacnet stack\include\ihave.h
+.\sources\bacnet stack\include\indtext.h
+.\sources\bacnet stack\include\key.h
+.\sources\bacnet stack\include\keylist.h
+.\sources\bacnet stack\include\memcopy.h
+.\sources\bacnet stack\include\memory.h
+.\sources\bacnet stack\include\msv.h
+.\sources\bacnet stack\include\mydata.h
+.\sources\bacnet stack\include\net.h
+.\sources\bacnet stack\include\npdu.h
+.\sources\bacnet stack\include\objects.h
+.\sources\bacnet stack\include\reject.h
+.\sources\bacnet stack\include\rp.h
+.\sources\bacnet stack\include\stdbool.h
+.\sources\bacnet stack\include\stdint.h
+.\sources\bacnet stack\include\tsm.h
+.\sources\bacnet stack\include\txbuf.h
+.\sources\bacnet stack\include\version.h
+.\sources\bacnet stack\include\whohas.h
+.\sources\bacnet stack\include\whois.h
+.\sources\bacnet stack\include\wp.h
+.\sources\bacnet stack\handler\dlenv.c
+.\sources\bacnet stack\handler\event.h
+.\sources\bacnet stack\handler\h_cov.c
+.\sources\bacnet stack\handler\h_iam.c
+.\sources\bacnet stack\handler\h_ihave.c
+.\sources\bacnet stack\handler\h_npdu.c
+.\sources\bacnet stack\handler\h_rp.c
+.\sources\bacnet stack\handler\h_rp_a.c
+.\sources\bacnet stack\handler\h_ucov.c
+.\sources\bacnet stack\handler\h_whohas.c
+.\sources\bacnet stack\handler\h_whois.c
+.\sources\bacnet stack\handler\h_wp.c
+.\sources\bacnet stack\handler\noserv.c
+.\sources\bacnet stack\handler\objects.c
+.\sources\bacnet stack\handler\objects.h
+.\sources\bacnet stack\handler\s_cov.c
+.\sources\bacnet stack\handler\s_iam.c
+.\sources\bacnet stack\handler\s_ihave.c
+.\sources\bacnet stack\handler\s_router.c
+.\sources\bacnet stack\handler\s_rp.c
+.\sources\bacnet stack\handler\s_whohas.c
+.\sources\bacnet stack\handler\s_whois.c
+.\sources\bacnet stack\handler\s_wp.c
+.\sources\bacnet stack\handler\txbuf.c
+.\sources\bacnet stack\object\msv.c
+.\sources\bacnet stack\object\av.c
+.\sources\bacnet stack\object\bv.c
+.\sources\bacnet stack\object\device.c
+.\sources\bacnet stack\src\abort.c
+.\sources\bacnet stack\src\address.c
+.\sources\bacnet stack\src\apdu.c
+.\sources\bacnet stack\src\bacaddr.c
+.\sources\bacnet stack\src\bacapp.c
+.\sources\bacnet stack\src\bacdcode.c
+.\sources\bacnet stack\src\bacerror.c
+.\sources\bacnet stack\src\bacint.c
+.\sources\bacnet stack\src\bacreal.c
+.\sources\bacnet stack\src\bacstr.c
+.\sources\bacnet stack\src\bigend.c
+.\sources\bacnet stack\src\bip_uip.c
+.\sources\bacnet stack\src\cov.c
+.\sources\bacnet stack\src\crc.c
+.\sources\bacnet stack\src\datalink.c
+.\sources\bacnet stack\src\datetime.c
+.\sources\bacnet stack\src\dcc.c
+.\sources\bacnet stack\src\debug.c
+.\sources\bacnet stack\src\fifo.c
+.\sources\bacnet stack\src\iam.c
+.\sources\bacnet stack\src\ihave.c
+.\sources\bacnet stack\src\indtext.c
+.\sources\bacnet stack\src\key.c
+.\sources\bacnet stack\src\keylist.c
+.\sources\bacnet stack\src\memcopy.c
+.\sources\bacnet stack\src\npdu.c
+.\sources\bacnet stack\src\reject.c
+.\sources\bacnet stack\src\rp.c
+.\sources\bacnet stack\src\tsm.c
+.\sources\bacnet stack\src\version.c
+.\sources\bacnet stack\src\whohas.c
+.\sources\bacnet stack\src\whois.c
+.\sources\bacnet stack\src\wp.c
+.\sources\comm\bacnet\ch_bacnet_server.h
+.\sources\comm\bacnet\c__bacnet_object.c
+.\sources\comm\bacnet\c__bacnet_server.c
+.\sources\comm\bacnet\ch_bacnet_object.h
+.\sources\bacnet stack\include\bvlc.h
+.\sources\bacnet stack\include\getevent.h
+.\sources\bacnet stack\include\rpm.h
+.\sources\bacnet stack\include\timestamp.h
+.\sources\bacnet stack\include\event.h
+.\sources\bacnet stack\include\bacdevobjpropref.h
+.\sources\bacnet stack\include\bacpropstates.h
+.\sources\bacnet stack\include\ptransfer.h
+.\sources\bacnet stack\include\alarm_ack.h
+.\sources\bacnet stack\include\lso.h
+.\sources\system\storage\ch_sd_log.h
+.\sources\system\storage\c__sd_log.c
+.\sources\comm\modbus\c__modbus.c
+.\sources\comm\modbus\ch_modbus.h
+.\sources\ui\screens\ch_disp_opt_alarm_2.h
+.\sources\ui\screens\c__disp_opt_alarm_2.c
+.\sources\ui\screens\ch_disp_opt_IO_07_07_3.h
+.\sources\ui\screens\c__disp_opt_IO_07_07_3.c
+.\sources\io\ch_IO_07_07.h
+.\sources\io\ch_IO_07_07_adc.h
+.\sources\io\ch_IO_07_07_board.h
+.\sources\io\ch_IO_07_07_dac.h
+.\sources\io\ch_IO_07_07_dout.h
+.\sources\io\ch_IO_07_07_RS485.h
+.\sources\io\ch_IO_07_07_digin.h
+.\sources\io\c__IO_07_07.c
+.\sources\io\c__IO_07_07_adc.c
+.\sources\io\c__IO_07_07_board.c
+.\sources\io\c__IO_07_07_dac.c
+.\sources\io\c__IO_07_07_dout.c
+.\sources\io\c__IO_07_07_RS485.c
+.\sources\io\c__IO_07_07_digin.c
+.\sources\io\ch_IO_12_06_dout.h
+.\sources\ui\screens\c__disp_opt_IO_06_14_3.c
+.\sources\ui\screens\c__disp_opt_IO_12_06_3.c
+.\sources\io\c__IO_06_14.c
+.\sources\io\c__IO_06_14_adc.c
+.\sources\io\c__IO_06_14_board.c
+.\sources\io\c__IO_06_14_dac.c
+.\sources\io\c__IO_06_14_digin.c
+.\sources\io\c__IO_06_14_dout.c
+.\sources\io\c__IO_12_06.c
+.\sources\io\c__IO_12_06_board.c
+.\sources\io\c__IO_12_06_count.c
+.\sources\io\c__IO_12_06_dac.c
+.\sources\io\c__IO_12_06_digin.c
+.\sources\io\c__IO_12_06_dout.c
+.\sources\ui\screens\ch_disp_opt_IO_06_14_3.h
+.\sources\ui\screens\ch_disp_opt_IO_12_06_3.h
+.\sources\io\ch_IO_06_14.h
+.\sources\io\ch_IO_06_14_adc.h
+.\sources\io\ch_IO_06_14_board.h
+.\sources\io\ch_IO_06_14_dac.h
+.\sources\io\ch_IO_06_14_digin.h
+.\sources\io\ch_IO_06_14_dout.h
+.\sources\io\ch_IO_12_06.h
+.\sources\io\ch_IO_12_06_board.h
+.\sources\io\ch_IO_12_06_count.h
+.\sources\io\ch_IO_12_06_dac.h
+.\sources\io\ch_IO_12_06_digin.h
+.\sources\ui\screens\ch_disp_afblaasvent_1.h
+.\sources\ui\screens\c__disp_afblaasvent_1.c
+.\sources\ui\screens\ch_disp_afblaasvent_2.h
+.\sources\ui\screens\c__disp_afblaasvent_2.c
+.\sources\ui\screens\ch_disp_bovenklep_2.h
+.\sources\ui\screens\ch_disp_bovenklep_1.h
+.\sources\ui\screens\c__disp_bovenklep_1.c
+.\sources\ui\screens\c__disp_bovenklep_2.c
+.\sources\ui\screens\ch_disp_inblaasvent_1.h
+.\sources\ui\screens\c__disp_inblaasvent_1.c
+.\sources\ui\screens\ch_disp_verwarming_1.h
+.\sources\ui\screens\ch_disp_verwarming_2.h
+.\sources\ui\screens\c__disp_verwarming_2.c
+.\sources\ui\screens\c__disp_verwarming_1.c
+.\sources\comm\ethernet\ch_xml.h
+.\sources\comm\ethernet\c__xml.c
+.\sources\devices\c__ebm_modbus.c
+.\sources\devices\ch_ebm_modbus.h
+.\sources\devices\ch_ecblue_modbus.h
+.\sources\devices\c__ecblue_modbus.c
+.\sources\devices\c__ecblue_premium.c
+.\sources\devices\ch_ecblue_premium.h
+.\sources\ui\screens\ch_disp_opt_vrijgave_vent_2.h
+.\sources\ui\screens\c__disp_opt_vrijgave_vent_2.c
+.\sources\devices\ch_belimo_lm24a_mod.h
+.\sources\devices\c__belimo_lm24a_mod.c
+.\sources\ui\screens\ch_disp_klep_1.h
+.\sources\ui\screens\c__disp_klep_1.c
+.\sources\comm\modbus\c__mb_device.c
+.\sources\comm\modbus\ch_mb_device.h
+.\sources\app\c__device.c
+.\sources\app\ch_device.h
+.\sources\comm\modbus\ch_dpt_mod.h
+.\sources\comm\modbus\c__dpt_mod.c
+.\sources\ui\screens\ch_disp_opt_sensoren_2.h
+.\sources\ui\screens\c__disp_opt_sensoren_2.c
+.\sources\app\ch_sensoren.h
+.\sources\app\c__sensoren.c
+.\sources\devices\ch_rosenberg.h
+.\sources\devices\c__rosenberg.c
+.\sources\devices\ch_rosenberg_gen_3.h
+.\sources\devices\c__rosenberg_gen_3.c
+.\sources\comm\modbus\c__modbus_crc.c
+.\sources\io\ch_IO_RS485.h
+.\sources\comm\modbus\ch_modbus_crc.h
+.\sources\io\c__IO_RS485.c
+.\sources\devices\ch_climafan.h
+.\sources\devices\c__climafan.c
+.\sources\ui\screens\ch_disp_opt_alg_wis_2.h
+.\sources\ui\screens\c__disp_opt_alg_wis_2.c
+.\sources\devices\c__nicotra_gebhardt.c
+.\sources\devices\ch_nicotra_gebhardt.h
+
+[Ede]
+Toolchain=c:\program files (x86)\tasking\c166 v8.8r1\etc\c166.dol
+ToolchainName=TASKING Tools for C166/ST10  v8.8r1
+ProjectDir=c:\workspace\orion-mc
+OutputDir=.\output
+EdeVersion=99.9r9 (Build 152)
+CodeWrightVersion=6.5b
+DefBuildSettings=True
+SaveFiles=True
+AbsolutePathNames=False
+StopAfterError=True
+KeepTmpFiles=False
+ExtMakefile=False
+ExtMakefileName=
+UserMakefile=False
+UserMakefileName=
+UseMakeOptions=False
+MakeOptions=
+CheckTarget=True
+ExtDebugger=False
+ExtDebuggerName=
+UseDOSShell=False
+SaveOptionMethod=1
+SaveOptionFileName=c:\workspace\orion-mc\orion_mc_v4_xc161cj.opt
+LoadOptionFileName=c:\workspace\orion-mc\_orion_mc_v4_xc167cj.opt
+LoadOptionStartup=False
+GroupProc=1
+GroupCpp=1
+GroupC=1
+GroupMisraC=1
+GroupAsm=1
+GroupMpp=1
+GroupLL=1
+GroupXvw=1
+DASSetup=1
+GroupList=GroupProc,GroupCpp,GroupC,GroupMisraC,GroupAsm,GroupMpp,GroupLL,GroupXvw,DASSetup
+
+[Directories]
+BinDir1=$(PRODDIR)\bin
+IncDir1=$(PRODDIR)\include
+IncDir2=.\sources
+IncDir3=.\sources\canopen\include
+IncDir4=.\sources\canopen\source
+IncDir5=.\sources\uip-1.0\apps\ethernet_app
+IncDir6=.\sources\uip-1.0\apps\webserver
+IncDir7=.\sources\uip-1.0\uip
+IncDir8=.\sources\bacnet stack\handler
+IncDir9=.\sources\bacnet stack\include
+IncDir10=.\sources\bacnet stack\object
+IncDir11=.\sources\bacnet stack\src
+IncDir12=.\sources\app
+IncDir13=.\sources\comm\bacnet
+IncDir14=.\sources\comm\can
+IncDir15=.\sources\comm\canopen
+IncDir16=.\sources\comm\ethernet
+IncDir17=.\sources\comm\modbus
+IncDir18=.\sources\comm\serial
+IncDir19=.\sources\common
+IncDir20=.\sources\devices
+IncDir21=.\sources\io
+IncDir22=.\sources\system
+IncDir23=.\sources\system\storage
+IncDir24=.\sources\ui\display
+IncDir25=.\sources\ui\input
+IncDir26=.\sources\ui\lcd
+IncDir27=.\sources\ui\screens
+LibDir1=$(PRODDIR)\lib
+
+[DefaultOptions]
+CpuManufacturer=CpuInfineon
+CpuType=CpuXC161CJ
+XvwUseSim=0
+XvwManufacturer=XvwManufacturerOther
+XvwExecEnvBoard=XvwTargUser
+OnChipRamEnable=0
+CPUCON1=0x0007
+CMemModel=CModelHuge
+LocSmallModelDef=0
+LocStartLin=31
+LocSmallModelPag=1
+CpuEva=0
+CpuBitInit=1
+CPUCON1_enable=1
+CPUCON2_enable=1
+PLLCON_enable=1
+PLLCON=0x7D95
+RSTCON_enable=1
+RSTCON=0x0010
+SYSCON0_enable=1
+SYSCON1_enable=1
+SYSCON3_enable=1
+ADDRSEL1_enable=1
+ADDRSEL1=0x4008
+ADDRSEL2_enable=1
+ADDRSEL2=0x5008
+ADDRSEL3_enable=1
+ADDRSEL3=0x2090
+ADDRSEL4_enable=1
+ADDRSEL4=0x2080
+ADDRSEL7_enable=1
+EBCMOD0_enable=1
+EBCMOD0=0x6858
+EBCMOD1=0
+FCONCS0_enable=1
+FCONCS1_enable=1
+FCONCS1=0x0021
+FCONCS2_enable=1
+FCONCS2=0x0021
+FCONCS3_enable=1
+FCONCS3=0x0001
+FCONCS4_enable=1
+FCONCS4=0x0001
+TCONCS0_enable=1
+TCONCS0=0x0080
+TCONCS1_enable=1
+TCONCS1=0x0080
+TCONCS2_enable=1
+TCONCS2=0x0080
+TCONCS3_enable=1
+TCONCS3=0x7FFC
+TCONCS4_enable=1
+TCONCS4=0x0080
+TCONCSMM=0x0088
+OPSEN_enable=1
+OPSEN=0xC1CE
+FOCON_enable=1
+FOCON=0x0100
+CRegInc=1
+CNearTreshold=4
+LnkLocTrapFPLib=0
+CAnsi14BitFarArith=1
+OptConvPtrLongFar=1
+CDebugAllTypes=1
+LnkLocStdMacLib=1
+CSupprWarn=864
+CWarningAsError=1
+CDispModSum=1
+AsmGenSymbTab=1
+AsmListPaging=0
+AsmSupprWarnList=118
+AsmGenAsmlineinfo=1
+OutIHex=1
+LnkLocRegMap=1
+LnkLocSymbTab=1
+LnkLocSummary=1
+LnkLocPaging=0
+LocMemList=LocMemListType,LocMemListTypeRom,LocMemListTypeRom,LocMemListTypeRam,LocMemListTypeRam,LocMemListTypeRam,LocMemListTypeRam,LocMemListStart,0x0000,0x10000,0x208000,0x209000,0x400000,0x440000,LocMemListEnd,0x7FFF,0x1FFFFF,0x208FFF,0x209FFF,0x43FFFF,0x4FFFFF,LocMemListFill,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListFillNone,LocMemListPattern,,,,,,,LocMemListNotes
+LocReserveMemList=LocReserveMemStart,0x1000,LocReserveMemEnd,0x1FFF,LocReserveMemNotes
+LocMemReserveIRAM=0
+LocClassesList=LocClassesNames,MEM_KEY,MEM_CP2200,EEPROM,TEKST,TEKST_INST,CNEAR,CFAR\,CHUGE\,CSHUGE,VAL_HR_ALG,CFAR\,CHUGE\,CSHUGE,MEMPOOL,LAST_BYTE_256KB_RAM,ALARM_HR_ALG,CFAR\,CHUGE\,CSHUGE,LAST_BYTE_1MB_RAM,LocClassesStart,0x208000,0x209000,0x400000,0x410000,0x416000,0x428000,0x42C000,0x430000,0x434000,0x43E000,0x43FFFE,0x440000,0x448000,0x4FFFFE,LocClassesEnd,0x208FFF,0x209FFF,0x40FFFF,0x415FFF,0x417FFF,0x42BFFF,0x42FFFF,0x433FFF,0x43DFFF,0x43FFFD,0x43FFFF,0x447FFF,0x4FFFFD,0x4FFFFF,LocClassesUnique,LocClassesUniqueYes,LocClassesUniqueYes,LocClassesUniqueYes,LocClassesUniqueYes,LocClassesUniqueYes,LocClassesUniqueYes,LocClassesUniqueNo,LocClassesUniqueYes,LocClassesUniqueNo,LocClassesUniqueYes,LocClassesUniqueYes,LocClassesUniqueYes,LocClassesUniqueNo,LocClassesUniqueYes,LocClassesNotes
+LocUserStackSize=0x1000
+LocHeapSize=0x400
+FlashWorkspace=0x14000
+XvwTargConfFile=c:\c166_projecten\orion_can_rs232_v2\orion_cpu_xc161cj.cfg
+XvwBaud=XvwBaud115200
+XvwFlash=0
+XvwBreakOnExit=0
+
+[Options]
+FileList=

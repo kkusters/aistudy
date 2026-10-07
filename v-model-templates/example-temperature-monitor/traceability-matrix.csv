@@ -1,0 +1,9 @@
+BR_ID,SR_ID,AR_ID,MD_ID,UT_ID,IT_ID,ST_ID,AT_ID,Status,Notes
+BR-010,SR-010,AR-010,,,IT-010,ST-010,AT-010,Reverse-Engineered,"Sampling timing is owned by the platform scheduler"
+BR-010,SR-020,AR-020,MD-010,UT-010,IT-020,ST-020,AT-010,Reverse-Engineered,"Three consecutive samples assert alarm"
+BR-020,SR-020,AR-020,MD-010,UT-020,IT-020,ST-020,AT-020,Reverse-Engineered,"Nonqualifying sample resets trip count"
+BR-020,SR-030,AR-020,MD-020,UT-030,IT-020,ST-030,AT-020,Reverse-Engineered,"Five consecutive samples clear alarm"
+BR-020,SR-040,AR-020,MD-010,UT-040,IT-020,ST-040,AT-020,Reverse-Engineered,"Hysteresis prevents state changes"
+BR-020,SR-040,AR-020,MD-020,UT-040,IT-020,ST-040,AT-020,Reverse-Engineered,"Hysteresis applies in alarm state"
+BR-030,SR-050,AR-030,MD-030,UT-010,IT-030,ST-050,AT-010,Reverse-Engineered,"Callback isolates alarm output"
+BR-030,SR-050,AR-020,MD-040,UT-050,IT-030,ST-050,AT-020,Reverse-Engineered,"Portable API validates configuration"
